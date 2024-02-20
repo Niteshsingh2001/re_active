@@ -1,6 +1,6 @@
 import Accordian from "../components/accodian"
 import ImageSlider from "../components/imageSlider"
-import LoadMoreData from "../components/loadMoreData"
+import QRCodeGenerator from "../components/qrCodeGenerator"
 import RandomColor from "../components/randomColor"
 import StarRating from "../components/starRating"
 import TreeView from "../components/treeView"
@@ -36,12 +36,12 @@ export const components: Components[] = [
         component: ImageSlider
     },
     {
-        link: "load_more_data", label: "Load More Data",
-        component: LoadMoreData
-    },
-    {
         link: "tree_view", label: "Tree View",
         component: TreeView
+    },
+    {
+        link: "qr_code_generator", label: "QR Code Generator",
+        component: QRCodeGenerator
     },
 
 ]
