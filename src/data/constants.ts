@@ -1,10 +1,14 @@
 import Accordian from "../components/accodian"
+import AutoComplete from "../components/autocomplete"
+import CustomModal from "../components/customModal"
+import CustomScroll from "../components/customScroll"
+import CustomTabs from "../components/customTabs"
+import GithubProfile from "../components/githubProfileFinder"
 import ImageSlider from "../components/imageSlider"
 import QRCodeGenerator from "../components/qrCodeGenerator"
 import RandomColor from "../components/randomColor"
 import StarRating from "../components/starRating"
 import TreeView from "../components/treeView"
-import HomePage from "../routes/homepage"
 
 interface Components {
     link: string
@@ -14,11 +18,6 @@ interface Components {
 
 
 export const components: Components[] = [
-    {
-        link: "",
-        label: "HomePage",
-        component: HomePage
-    },
     {
         link: "accordian", label: "Accordian",
         component: Accordian
@@ -42,6 +41,26 @@ export const components: Components[] = [
     {
         link: "qr_code_generator", label: "QR Code Generator",
         component: QRCodeGenerator
+    },
+    {
+        link: "custom_scroll", label: "Custom Scroll",
+        component: CustomScroll
+    },
+    {
+        link: "custom_tabs", label: "Custom Tabs",
+        component: CustomTabs
+    },
+    {
+        link: "custom_modal", label: "Custom Modal",
+        component: CustomModal
+    },
+    {
+        link: "github_profile", label: "Github Profile",
+        component: GithubProfile
+    },
+    {
+        link: "auto_complete", label: "Auto Complete",
+        component: AutoComplete
     },
 
 ]

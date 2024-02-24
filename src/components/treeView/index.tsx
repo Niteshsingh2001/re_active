@@ -14,10 +14,10 @@ function MenuList({ list }: { list: Menu }) {
 
 
     return (<div className='flex flex-col gap-1'>
-        <div className='flex justify-between'>
+        <div className='flex justify-between '>
             {list.label}
             {
-                list.children && list.children.length && <div onClick={() => { handleHideChildren(list.label) }}>
+                list.children && list.children.length && <div className='cursor-pointer' onClick={() => { handleHideChildren(list.label) }}>
                     {displayCurrentChildren && displayCurrentChildren[list.label] === true ?
                         <MinusIcon className='h-4 w-4 ' />
                         :

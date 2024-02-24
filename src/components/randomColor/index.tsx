@@ -28,7 +28,7 @@ export default function RandomColor() {
 
 
     return (
-        <div style={{ backgroundColor: color }} className='flex flex-col items-center  w-screen h-screen'>
+        <div style={{ backgroundColor: color }} className='flex flex-col items-center  w-full h-full'>
             <div className='flex gap-2 my-2'>
                 <button onClick={() => { setColorType("HEX") }} className='bg-blue-500 rounded text-white px-3 py-1' type="button">HEX</button>
                 <button onClick={() => { setColorType("RGB") }} className='bg-blue-500 rounded text-white px-3 py-1' type="button">RGB</button>

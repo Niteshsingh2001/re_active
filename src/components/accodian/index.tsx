@@ -21,7 +21,7 @@ export default function Accordian() {
     }
 
     return (
-        <div className='w-screen h-screen flex flex-col items-center gap-2 justify-center'>
+        <div className='w-full h-full flex flex-col items-center gap-2 justify-center'>
 
             {
                 selectionType === "single" ?
