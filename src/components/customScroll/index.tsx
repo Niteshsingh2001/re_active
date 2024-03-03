@@ -5,18 +5,16 @@ export default function CustomScroll() {
 
     const [scrollPercentage, setSetscrollPercentage] = useState<number>()
     const [scrollHeight, setScrollHeight] = useState<number>()
-    const scrollElement = document.getElementById("scroll");
-
-
-    function handleScroll() {
-        if (scrollElement) {
-            setSetscrollPercentage(scrollElement.scrollTop);
-            setScrollHeight(scrollElement.scrollHeight - scrollElement.clientHeight);
-        }
-    }
-
 
     useEffect(() => {
+        const scrollElement = document.getElementById("scroll");
+        function handleScroll() {
+            if (scrollElement) {
+                setSetscrollPercentage(scrollElement.scrollTop);
+                setScrollHeight(scrollElement.scrollHeight - scrollElement.clientHeight);
+            }
+        }
+
         if (scrollElement) {
             scrollElement.addEventListener("scroll", handleScroll)
         }
@@ -24,7 +22,7 @@ export default function CustomScroll() {
         return () => {
             window.removeEventListener("scroll", () => { })
         }
-    }, [scrollElement, handleScroll])
+    }, [])
 
 
 

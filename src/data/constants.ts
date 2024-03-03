@@ -8,6 +8,7 @@ import ImageSlider from "../components/imageSlider"
 import QRCodeGenerator from "../components/qrCodeGenerator"
 import RandomColor from "../components/randomColor"
 import StarRating from "../components/starRating"
+import TicTacToe from "../components/tic-tac-toe"
 import TreeView from "../components/treeView"
 
 interface Components {
@@ -61,6 +62,10 @@ export const components: Components[] = [
     {
         link: "auto_complete", label: "Auto Complete",
         component: AutoComplete
+    },
+    {
+        link: "tic_tac_toe", label: "Tic Tac Toe",
+        component: TicTacToe
     },
 
 ]
