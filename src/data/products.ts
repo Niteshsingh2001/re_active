@@ -4,9 +4,9 @@ interface Product {
 }
 interface Data {
     products: Array<Product>
-    total: string
-    skip: string
-    limit: string
+    total: number
+    skip: number
+    limit: number
 }
 
 export const data: Data = {
@@ -212,7 +212,7 @@ export const data: Data = {
             "title": "Stylish Casual Jeans Shoes"
         }
     ],
-    "total": 100,
-    "skip": 10,
-    "limit": 50
+    total: 100,
+    skip: 10,
+    limit: 50
 }

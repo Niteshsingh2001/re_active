@@ -10,6 +10,7 @@ import RandomColor from "../components/randomColor"
 import StarRating from "../components/starRating"
 import TicTacToe from "../components/tic-tac-toe"
 import TreeView from "../components/treeView"
+import useFetchTest from "../components/useFetch/useFetchTest"
 
 interface Components {
     link: string
@@ -66,6 +67,10 @@ export const components: Components[] = [
     {
         link: "tic_tac_toe", label: "Tic Tac Toe",
         component: TicTacToe
+    },
+    {
+        link: "usefetch_test", label: "useFetch Test",
+        component: useFetchTest
     },
 
 ]
