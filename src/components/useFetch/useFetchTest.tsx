@@ -1,8 +1,7 @@
-import UseFetch from '.'
+import useFetch from '.'
 
 export default function useFetchTest() {
-    const { data, error, pending } = UseFetch("https://dummyjson.com/products/categories")
-
+    const { data, error, pending } = useFetch("https://dummyjson.com/products/categories")
 
     console.log(data);
 

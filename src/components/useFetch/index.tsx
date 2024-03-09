@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export default function UseFetch(url: string, options?: { [key: string]: string }) {
+export default function useFetch(url: string, options?: { [key: string]: string }) {
     const [data, setData] = useState<Array<any>>([])
     const [pending, setPending] = useState<boolean>(false)
     const [error, setError] = useState<string | null>(null)
