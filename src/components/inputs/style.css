@@ -1,0 +1,21 @@
+.bg-image {
+    background-image: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    @apply rounded outline-none py-1 px-2 card
+}
+
+button {
+    @apply bg-black text-white rounded py-1 px-4
+}
+
+.card {
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}

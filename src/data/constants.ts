@@ -1,14 +1,19 @@
 import Accordian from "../components/accodian"
+import Animation from "../components/animation"
 import AutoComplete from "../components/autocomplete"
+import CircularLoader from "../components/circularLoader"
 import CustomModal from "../components/customModal"
 import CustomScroll from "../components/customScroll"
 import CustomTabs from "../components/customTabs"
 import GithubProfile from "../components/githubProfileFinder"
+import Header from "../components/header"
 import ImageSlider from "../components/imageSlider"
+import CustomInputs from "../components/inputs"
 import QRCodeGenerator from "../components/qrCodeGenerator"
 import RandomColor from "../components/randomColor"
 import ScrollToTopAndBottom from "../components/scrollToTopAndBottom"
 import ScrollToView from "../components/scrollToView"
+import StackedCards from "../components/stackedCards"
 import StarRating from "../components/starRating"
 import TicTacToe from "../components/tic-tac-toe"
 import TreeView from "../components/treeView"
@@ -91,6 +96,26 @@ export const components: Components[] = [
     {
         link: "scroll_to_view", label: "Scroll To View",
         component: ScrollToView
+    },
+    {
+        link: "custom_inputs", label: "Custom Inputs",
+        component: CustomInputs
+    },
+    {
+        link: "circular_loader", label: "Circular Loader",
+        component: CircularLoader
+    },
+    {
+        link: "header", label: "Header",
+        component: Header
+    },
+    {
+        link: "animation", label: "Animation",
+        component: Animation
+    },
+    {
+        link: "stacked_cards", label: "Stacked Cards",
+        component: StackedCards
     },
 
 ]

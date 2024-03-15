@@ -1,0 +1,76 @@
+.header {
+    background-image: url("https://images.unsplash.com/photo-1710292036904-3dc60dd14e53?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.re {
+    background-image: linear-gradient(313deg, #eea848, #98e150, #cd6cec, #cdec6c);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: snake 3s linear infinite;
+    -moz-animation: snake 3s linear infinite;
+    -o-animation: snake 3s linear infinite;
+    animation: snake 3s linear infinite;
+}
+
+
+
+@-webkit-keyframes snake {
+    0% {
+        background-position: 0% 5%;
+    }
+
+    50% {
+        background-position: 100% 96%;
+    }
+
+    100% {
+        background-position: 0% 5%;
+    }
+}
+
+@-moz-keyframes snake {
+    0% {
+        background-position: 0% 5%;
+    }
+
+    50% {
+        background-position: 100% 96%;
+    }
+
+    100% {
+        background-position: 0% 5%;
+    }
+}
+
+@-o-keyframes snake {
+    0% {
+        background-position: 0% 5%;
+    }
+
+    50% {
+        background-position: 100% 96%;
+    }
+
+    100% {
+        background-position: 0% 5%;
+    }
+}
+
+@keyframes snake {
+    0% {
+        background-position: 0% 5%;
+    }
+
+    50% {
+        background-position: 100% 96%;
+    }
+
+    100% {
+        background-position: 0% 5%;
+    }
+}
