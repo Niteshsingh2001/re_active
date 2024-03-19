@@ -15,6 +15,7 @@
     -moz-animation: snake 3s linear infinite;
     -o-animation: snake 3s linear infinite;
     animation: snake 3s linear infinite;
+    transition: 0.5s;
 }
 
 
