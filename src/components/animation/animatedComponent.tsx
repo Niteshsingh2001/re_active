@@ -33,7 +33,7 @@ export function KeyFrames() {
 
 export function Equilizer() {
     return (
-        <div className='h-36 w-36 flex gap-2 bg-red-200 rounded-md items-end justify-center 
+        <div className='h-36 w-36 flex gap-2 bg-gray-600 rounded-md items-end justify-center 
          py-2
         '>
             <div className="bar1  rounded-t-sm bg-blue-500"></div>
@@ -45,7 +45,7 @@ export function Equilizer() {
 }
 export function Equilizer2() {
     return (
-        <div className='h-36 w-36 flex gap-2 bg-red-200 rounded-md items-center justify-center 
+        <div className='h-36 w-36 flex gap-2 bg-gray-600 rounded-md items-center justify-center 
          py-2
         '>
             <div className="bar1  rounded-sm bg-blue-500"></div>
@@ -57,7 +57,7 @@ export function Equilizer2() {
 }
 export function Equilizer3() {
     return (
-        <div className='h-36 w-36 flex gap-2 bg-red-200 rounded-md items-start justify-center 
+        <div className='h-36 w-36 flex gap-2 bg-gray-600 rounded-md items-start justify-center 
          py-2
         '>
             <div className="bar1  rounded-sm bg-blue-500"></div>
@@ -67,18 +67,10 @@ export function Equilizer3() {
         </div>
     )
 }
-export function Pop() {
-    return (
-        <div className='h-36 w-36 flex gap-2 bg-red-200 rounded-md items-center justify-center 
-         py-2
-        '>
-            <div className="pop h-20 w-20 rounded-full bg-red-600"></div>
-        </div>
-    )
-}
+
 export function Heart() {
     return (
-        <div className='h-36 w-36 flex gap-2  rounded-md items-center justify-center 
+        <div className='h-36 w-36 flex gap-2 bg-pink-300 rounded-md items-center justify-center 
          py-2 text-5xl 
         '>
             <div className="heart select-none">

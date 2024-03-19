@@ -3,23 +3,24 @@ import "./animation.css"
 
 export default function Animation() {
     return (
-        <div className="h-full w-full flex flex-wrap gap-4 select-none ">
+        <div className="h-full">
+            <div className=" w-full flex flex-wrap justify-start items-start gap-4 select-none ">
 
-            {/* <Transforms /> */}
-            {/* <Transition /> */}
-            {/* <KeyFrames /> */}
-            <Equilizer />
-            <Equilizer2 />
-            <Equilizer3 />
-            <Pop />
-            <Heart />
-            <Prespective />
-            <Wheel />
-            <Bounce />
-            <Theme />
-            <MoonFaces />
+                {/* <Transforms /> */}
+                {/* <Transition /> */}
+                {/* <KeyFrames /> */}
+                <Equilizer />
+                <Equilizer2 />
+                <Equilizer3 />
+                <Heart />
+                <Prespective />
+                <Wheel />
+                <Bounce />
+                <Theme />
+                <MoonFaces />
 
 
+            </div>
         </div>
     )
 }
