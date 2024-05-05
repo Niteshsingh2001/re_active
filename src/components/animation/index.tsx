@@ -1,4 +1,4 @@
-import { Bounce, Equilizer, Equilizer2, Equilizer3, Heart, MoonFaces, Pop, Prespective, Theme, Wheel } from "./animatedComponent"
+import { Bounce, Equilizer, Equilizer2, Equilizer3, Heart, MoonFaces,  Prespective, Theme, Wheel } from "./animatedComponent"
 import "./animation.css"
 
 export default function Animation() {
