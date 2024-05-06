@@ -7,7 +7,7 @@ export default function HomePage() {
                 <Link to="/" className="font-thin text-2xl"><span className="font-bold">Re</span>active</Link>
                 <h1 className="font-thin">version 0.0.1</h1>
             </div>
-            <div className="flex flex-col h-[93.5%] justify-center   items-center overflow-y-auto">
+            <div className="flex flex-col h-[93.5%] justify-center items-center overflow-y-auto">
                 <Outlet />
             </div>
         </div>
