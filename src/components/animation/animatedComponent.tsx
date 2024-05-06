@@ -79,6 +79,8 @@ export function Heart() {
         </div>
     )
 }
+
+
 export function PopUp() {
     return (
         <div className='h-36 w-36 flex gap-2  rounded-md items-center justify-center 
