@@ -8,6 +8,7 @@ import CustomTabs from "../components/customTabs"
 import GithubProfile from "../components/githubProfileFinder"
 import Header from "../components/header"
 import ImageSlider from "../components/imageSlider"
+import ImageUploader from "../components/imageUploader"
 import CustomInputs from "../components/inputs"
 import QRCodeGenerator from "../components/qrCodeGenerator"
 import RandomColor from "../components/randomColor"
@@ -116,6 +117,10 @@ export const components: Components[] = [
     {
         link: "stacked_cards", label: "Stacked Cards",
         component: StackedCards
+    },
+    {
+        link: "image_uploader", label: "Image Uploader",
+        component: ImageUploader
     },
 
 
