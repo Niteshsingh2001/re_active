@@ -1,5 +1,4 @@
-import Card3D from "../components/3js/card_3d"
-import ThreeTS from "../components/3js/threejs"
+
 import Accordian from "../components/accodian"
 import Animation from "../components/animation"
 import AutoComplete from "../components/autocomplete"
@@ -34,14 +33,6 @@ export const components: Components[] = [
     {
         link: "accordian", label: "Accordian",
         component: Accordian
-    },
-    {
-        link: "three-ts", label: "Three TS",
-        component: ThreeTS
-    },
-    {
-        link: "3d_card", label: "3D Card",
-        component: Card3D
     },
     {
         link: "random_color", label: "Random Color",
