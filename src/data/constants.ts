@@ -6,6 +6,7 @@ import CircularLoader from "../components/circularLoader"
 import CustomModal from "../components/customModal"
 import CustomScroll from "../components/customScroll"
 import CustomTabs from "../components/customTabs"
+import DragDrop from "../components/drag_drop"
 import GithubProfile from "../components/githubProfileFinder"
 import Header from "../components/header"
 import ImageSlider from "../components/imageSlider"
@@ -26,7 +27,7 @@ import WindowResizeHookTest from "../components/windowResizeHook/test"
 interface Components {
     link: string
     label: string
-    component: () => JSX.Element
+    component: ({ limit }: { limit?: number | undefined }) => JSX.Element
 }
 
 
@@ -122,6 +123,10 @@ export const components: Components[] = [
     {
         link: "image_uploader", label: "Image Uploader",
         component: ImageUploader
+    },
+    {
+        link: "drag_drop", label: "Drag Drop",
+        component: DragDrop
     },
 
 

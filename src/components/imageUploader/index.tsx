@@ -14,7 +14,7 @@ function fileToURL(file: File) {
     })
 }
 
-export default function ImageUploader({ limit }: { limit: number }) {
+export default function ImageUploader({ limit }: { limit?: number }) {
 
     // const previewImageContainer = useRef<HTMLDivElement | null>(null)
     const [images, setImages] = useState<string[]>()
@@ -84,9 +84,6 @@ export default function ImageUploader({ limit }: { limit: number }) {
 
 
     return (
-
-
-
         <div
             className="relative  h-full  w-full  select-none "
             onDrop={handleDrop}
